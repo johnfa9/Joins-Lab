@@ -1,7 +1,7 @@
 BEGIN;
 
 
-CREATE TABLE employee (
+CREATE TABLE employees (
     ssn VARCHAR(255)PRIMARY KEY,
     first VARCHAR(255),
     last VARCHAR(255),
@@ -9,7 +9,7 @@ CREATE TABLE employee (
     city VARCHAR(255)
 );
 
-CREATE TABLE job (
+CREATE TABLE jobs (
     ssn VARCHAR(255) PRIMARY KEY,
     company VARCHAR(255),
     salary INT,
